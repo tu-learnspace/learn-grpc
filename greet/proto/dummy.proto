@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package dummy;
-
-message Dummy {}
-
-service DummyService {
-  rpc SayHello(Dummy) returns (Dummy);
-}
